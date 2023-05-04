@@ -15,11 +15,11 @@ Elaborar un diseño que permita modelar adecuadamente esta situación, implentan
 
 ### Porque un Builder?
 
-En este ejercicio hemos utilizado el patrón creacional Builder para construir objetos complejos de manera más sencilla. El patrón Builder separa la construcción de un objeto complejo de su representación, permitiendo que el mismo proceso de construcción pueda crear diferentes representaciones.
+En este ejercicio se utiliza para crear las bases simples y compuestas. En lugar de tener un constructor complejo que acepte múltiples argumentos para crear un objeto con muchas propiedades, se utiliza una clase Builder que facilita la construcción del objeto en cuestión.
 
-En este caso, hemos utilizado el patrón Builder para crear instancias de la clase Base y sus subclases (BaseSimple y BaseCompuesta). Cada tipo de Base tiene su propio Builder que se encarga de construir la Base de forma adecuada. Esto permite crear objetos complejos con una sintaxis más clara y fácil de leer.
+La clase BaseBuilder se encarga de construir objetos de tipo Base. Este constructor tiene métodos para crear bases simples o compuestas, agregar o eliminar bases a una base compuesta, y finalmente construir la base. Esto permite crear bases de ambulancias complejas de manera sencilla, ya que se separa la construcción del objeto de su representación.
 
-En resumen, hemos utilizado el patrón creacional Builder en este ejercicio para separar la construcción de objetos complejos de su representación y simplificar la creación de instancias de la clase Base y sus subclases. Esto ha permitido crear objetos complejos con una sintaxis más clara y fácil de leer, y con la flexibilidad necesaria para adaptarse a diferentes escenarios.
+En resumen, el patrón Builder es útil en este ejercicio porque permite crear objetos complejos de manera sencilla y separa la construcción del objeto de su representación. El uso de un constructor complejo con múltiples argumentos puede ser confuso y difícil de mantener a medida que el número de argumentos aumenta. El patrón Builder permite que el código sea más fácil de leer y mantener, al mismo tiempo que proporciona una forma flexible de construir objetos complejos.
 
 
 
