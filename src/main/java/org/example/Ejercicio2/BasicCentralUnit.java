@@ -18,4 +18,14 @@ public class BasicCentralUnit implements CentralUnit {
     public double getPrice() {
         return this.price;
     }
+
+    @Override
+    public int getProcessorSpeed() {
+        return 0;
+    }
+
+    @Override
+    public int getRAMSize() {
+        return 0;
+    }
 }
