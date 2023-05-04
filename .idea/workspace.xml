@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="293f55d1-4bd6-4b97-8162-ea337bb53f0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BaseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BaseCompuesta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BaseSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BasesCompuestas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="293f55d1-4bd6-4b97-8162-ea337bb53f0b" name="Changes" comment="Commit MostrarMain">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio1/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BaseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio1/BaseBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BaseCompuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio1/BaseCompuesta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BaseSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio1/BaseSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BasesCompuestas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio1/BasesCompuestas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MostrarMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio1/MostrarMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +21,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2PKv9b8cTqqs6sN6aQns9gSKVAO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -56,11 +60,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683218438748</updated>
-      <workItem from="1683218440005" duration="2432000" />
+      <workItem from="1683218440005" duration="2837000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit interface y clases">
+      <created>1683220972274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683220972274</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit Main">
+      <created>1683221196704</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683221196704</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit MostrarMain">
+      <created>1683221218223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683221218223</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit interface y clases" />
+    <MESSAGE value="Commit Main" />
+    <MESSAGE value="Commit MostrarMain" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit MostrarMain" />
   </component>
 </project>

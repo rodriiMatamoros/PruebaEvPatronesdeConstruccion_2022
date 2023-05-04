@@ -1,7 +1,4 @@
-package org.example;
-
-import java.util.ArrayList;
-import java.util.List;
+package org.example.Ejercicio1;
 
 public class BaseSimple implements Base {
     private String nombre;
