@@ -1,7 +1,7 @@
 package org.example;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main() {
         // Crear una base simple
         Base baseSimple = new BaseBuilder()
                 .crearBaseSimple("Base simple", 2, 12)
@@ -33,4 +33,3 @@ public class Main {
         System.out.println("Tiempo medio de asistencia: " + baseCompuesta.getTiempoMedioAsistencia());
     }
 }
-//abstract class Creator {
