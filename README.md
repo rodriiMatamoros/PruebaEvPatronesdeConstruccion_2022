@@ -13,6 +13,18 @@ Número de ambulancias, que en el caso de las bases compuestas es la suma de las
 Tiempo medio de asistencia, que en el caso de las bases compuestas es la media de los tiempos medios de asistencia registrados en las bases que las componen en ese momento.
 Elaborar un diseño que permita modelar adecuadamente esta situación, implentando completamente en Replit las clases que modelan las bases, sean del tipo que sean. Definir los patrones de diseño utilizado
 
+### Porque un Builder?
+
+En este ejercicio hemos utilizado el patrón creacional Builder para construir objetos complejos de manera más sencilla. El patrón Builder separa la construcción de un objeto complejo de su representación, permitiendo que el mismo proceso de construcción pueda crear diferentes representaciones.
+
+En este caso, hemos utilizado el patrón Builder para crear instancias de la clase Base y sus subclases (BaseSimple y BaseCompuesta). Cada tipo de Base tiene su propio Builder que se encarga de construir la Base de forma adecuada. Esto permite crear objetos complejos con una sintaxis más clara y fácil de leer.
+
+En resumen, hemos utilizado el patrón creacional Builder en este ejercicio para separar la construcción de objetos complejos de su representación y simplificar la creación de instancias de la clase Base y sus subclases. Esto ha permitido crear objetos complejos con una sintaxis más clara y fácil de leer, y con la flexibilidad necesaria para adaptarse a diferentes escenarios.
+
+
+
+
+
 
 
 ## Ejercicio 2
